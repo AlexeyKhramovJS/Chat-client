@@ -1,0 +1,61 @@
+.messages {
+    height: 76%;
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+.modal {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.modalContent {
+    width: 20%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #363e47;
+}
+
+.modalContent p {
+    margin-bottom: 20px;
+    color: #f2f7f7;
+}
+
+.buttonsGroup {
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttonsGroup button {
+    padding: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+    .modalContent {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .modalContent {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .modalContent {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .modalContent {
+        width: 80%;
+    }
+}

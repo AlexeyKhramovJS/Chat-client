@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="464pt" version="1.1" viewBox="0 -64 464 464" width="464pt">
+<g id="surface1">
+<path d="M 232 227.113281 L 288 336 L 276 312 L 360 144 L 464 336 L 464 0 L 232 0 Z M 280 72 C 297.671875 72 312 86.328125 312 104 C 312 121.671875 297.671875 136 280 136 C 262.328125 136 248 121.671875 248 104 C 248 86.328125 262.328125 72 280 72 Z M 280 72 " style=" stroke:none;fill-rule:nonzero;fill:rgb(90.196078%,90.588235%,90.980392%);fill-opacity:1;" />
+<path d="M 232 227.113281 L 232 0 L 0 0 L 0 336 L 144 56 Z M 232 227.113281 " style=" stroke:none;fill-rule:nonzero;fill:rgb(81.960784%,82.745098%,83.137255%);fill-opacity:1;" />
+<path d="M 312 104 C 312 121.671875 297.671875 136 280 136 C 262.328125 136 248 121.671875 248 104 C 248 86.328125 262.328125 72 280 72 C 297.671875 72 312 86.328125 312 104 Z M 312 104 " style=" stroke:none;fill-rule:nonzero;fill:rgb(65.490196%,66.27451%,67.45098%);fill-opacity:1;" />
+<path d="M 144 56 L 0 336 L 232 336 L 232 227.113281 Z M 144 56 " style=" stroke:none;fill-rule:nonzero;fill:rgb(65.490196%,66.27451%,67.45098%);fill-opacity:1;" />
+<path d="M 360 144 L 278.710938 306.585938 L 232 227.113281 L 232 336 L 464 336 Z M 360 144 " style=" stroke:none;fill-rule:nonzero;fill:rgb(73.72549%,74.509804%,75.294118%);fill-opacity:1;" />
+</g>
+</svg>

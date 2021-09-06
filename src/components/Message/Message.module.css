@@ -1,0 +1,59 @@
+.wrap {
+    margin-bottom: 15px;
+}
+
+.message {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 40%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.userInfo {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+.userPhoto {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.imageWrap {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+}
+
+.messageImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.imageClose {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 30px;
+    height: 30px;
+    background-image: url(../../images/close_small.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .message {
+        max-width: 70%;
+    }
+}

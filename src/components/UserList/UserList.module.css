@@ -1,0 +1,78 @@
+.userList {
+    width: 20%;
+    padding: 20px;
+    color: #93979c;
+    background-color: #363e47;
+    overflow-y: scroll;
+}
+
+.listTitle {
+    display: block;
+    margin-bottom: 22px;
+    font-size: 19px;
+    text-align: center;
+}
+
+.userListItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.userPhoto {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.userListClose {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .userList {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 28%;
+        height: 89%;
+    }
+
+    .userListActive {
+        display: block;
+    }
+
+    .userListClose {
+        display: block;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 50%;
+        right: 3px;
+        background-image: url(../../images/close.svg);
+        background-size: cover;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    .userList {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .userList {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .userList {
+        width: 100%;
+    }
+}

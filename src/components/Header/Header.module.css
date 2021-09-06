@@ -1,0 +1,64 @@
+.header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #939598;
+    height: 13%;
+    padding: 15px;
+}
+
+.usersPic {
+    display: none;
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+}
+
+.userInfo img {
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+    .header {
+        justify-content: flex-start
+    }
+
+    .usersPic {
+        display: block;
+        width: 30px;
+        height: 30px;
+        margin-right: 35%;
+        background-image: url(../../images/users.png);
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .usersPic {
+        margin-right: 30%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .userInfo img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .usersPic {
+        margin-right: 25%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .usersPic {
+        margin-right: 20%;
+    }
+}

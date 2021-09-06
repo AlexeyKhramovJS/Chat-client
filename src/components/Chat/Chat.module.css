@@ -1,0 +1,15 @@
+.main {
+    display: flex;
+    height: 100vh;
+}
+
+.wrap {
+    width: 80%;
+    background-color: #f2f7f7;
+}
+
+@media screen and (max-width: 1000px) {
+    .wrap {
+        width: 100%;
+    }
+}
